@@ -61,7 +61,9 @@ function SignedInContent() {
           <p className="font-semibold text-lg">
             {session?.user?.name || session?.user?.email || 'User'}
           </p>
-          <p className="text-sm text-muted-foreground">{session?.user?.email}</p>
+          <p className="text-sm text-muted-foreground">
+            {session?.user?.email}
+          </p>
         </div>
       </div>
 
@@ -101,7 +103,7 @@ export default function Home() {
           </h1>
           <p className="max-w-lg text-lg text-muted-foreground">
             Explore authentication features powered by Neon Auth. Sign in with
-            social providers, try anonymous access, and more.
+            social providers, and more.
           </p>
         </div>
 
@@ -129,12 +131,6 @@ export default function Home() {
                 Create Account
               </Link>
             </div>
-            <Link
-              href="/anonymous"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              or try anonymous access →
-            </Link>
           </div>
         </SignedOut>
 
@@ -157,11 +153,6 @@ export default function Home() {
               icon="🌐"
               title="Social Login"
               description="Sign in with GitHub or Google OAuth providers."
-            />
-            <FeatureCard
-              icon="👻"
-              title="Anonymous Access"
-              description="Try the app without creating an account, then convert later."
             />
             <FeatureCard
               icon="🔑"

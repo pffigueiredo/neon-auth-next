@@ -27,12 +27,6 @@ export function Header() {
 
       <nav className="flex items-center gap-4">
         <Link
-          href="/anonymous"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-        >
-          Anonymous Demo
-        </Link>
-        <Link
           href="https://github.com/neondatabase-labs/neon-js"
           target="_blank"
           className="text-muted-foreground hover:text-foreground transition-colors"
