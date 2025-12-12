@@ -175,7 +175,7 @@ export default function Home() {
         {/* Footer Links */}
         <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
           <a
-            href="https://neon.tech/docs/neon-auth"
+            href="https://neon.com/docs/neon-auth"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
@@ -191,7 +191,7 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://neon.tech"
+            href="https://neon.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"

@@ -407,6 +407,6 @@ if (error) {
 ## Links
 
 - [GitHub Repository](https://github.com/neondatabase-labs/neon-js)
-- [Neon Documentation](https://neon.tech/docs)
+- [Neon Documentation](https://neon.com/docs)
 - [Better Auth Documentation](https://www.better-auth.com/docs)
 - [Better Auth UI](https://better-auth-ui.com)
