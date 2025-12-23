@@ -183,7 +183,7 @@ export default function Home() {
             Documentation
           </a>
           <a
-            href="https://github.com/neondatabase-labs/neon-js"
+            href="https://github.com/neondatabase/neon-js"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
